@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/aries
+DEVICE_PATH := device/xiaomi/taurus
 
 # Architecture
 TARGET_ARCH_VARIANT_CPU    := cortex-a9
@@ -28,11 +28,11 @@ ARCH_ARM_HAVE_TLS_REGISTER := true
 BOARD_USES_QCOM_HARDWARE   := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := aries
+TARGET_OTA_ASSERT_DEVICE := taurus
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8960
-TARGET_BOOTLOADER_NAME       := aries
+TARGET_BOOTLOADER_NAME       := taurus
 TARGET_NO_BOOTLOADER         := true
 TARGET_NO_RADIOIMAGE         := true
 
@@ -151,7 +151,7 @@ BOARD_MKBOOTIMG_ARGS                 := --ramdisk_offset 0x02000000
 BOARD_KERNEL_CMDLINE                 := console=null androidboot.hardware=qcom ehci-hcd.park=3 maxcpus=2 androidboot.bootdevice=msm_sdcc.1 androidboot.selinux=permissive
 TARGET_KERNEL_ARCH                   := arm
 TARGET_KERNEL_SOURCE                 := kernel/xiaomi/aries
-TARGET_KERNEL_CONFIG                 := aries-perf-user_defconfig
+TARGET_KERNEL_CONFIG                 := taurus-perf-user_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX   := arm-linux-androideabi-
 
 # Malloc
@@ -219,4 +219,4 @@ WIFI_DRIVER_FW_PATH_AP           := "ap"
 WIFI_DRIVER_FW_PATH_STA          := "sta"
 WPA_SUPPLICANT_VERSION           := VER_0_8_X
 
--include vendor/xiaomi/aries/BoardConfigVendor.mk
+-include vendor/xiaomi/taurus/BoardConfigVendor.mk

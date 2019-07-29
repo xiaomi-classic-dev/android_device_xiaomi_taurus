@@ -1,7 +1,7 @@
 [
  {
-   "repository": "android_vendor_xiaomi_aries",
-   "target_path": "vendor/xiaomi/aries"
+   "repository": "android_vendor_xiaomi_taurus",
+   "target_path": "vendor/xiaomi/taurus"
  },
  {
    "repository": "android_kernel_xiaomi_aries",

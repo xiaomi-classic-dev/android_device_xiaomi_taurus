@@ -14,12 +14,12 @@
 # limitations under the License.
 #
 
-# This file includes all definitions that apply to ALL aries devices, and
-# are also specific to aries devices
+# This file includes all definitions that apply to ALL taurus devices, and
+# are also specific to taurus devices
 #
 # Everything in this directory will become public
 
-LOCAL_PATH := device/xiaomi/aries
+LOCAL_PATH := device/xiaomi/taurus
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
@@ -295,4 +295,4 @@ PRODUCT_PACKAGES += \
     XiaomiParts
 
 # call the proprietary setup
-$(call inherit-product, vendor/xiaomi/aries/aries-vendor.mk)
+$(call inherit-product, vendor/xiaomi/taurus/taurus-vendor.mk)

@@ -19,7 +19,7 @@
 set -e
 
 # Required!
-DEVICE=aries
+DEVICE=taurus
 VENDOR=xiaomi
 
 # Load extractutils and do some sanity checks

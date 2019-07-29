@@ -20,24 +20,24 @@ TARGET_SCREEN_WIDTH := 720
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from cancro device
-$(call inherit-product, device/xiaomi/aries/device.mk)
+$(call inherit-product, device/xiaomi/taurus/device.mk)
 
 # Inherit some common Mokee stuff.
 $(call inherit-product, vendor/mk/config/common_mini_phone.mk)
 
-PRODUCT_NAME := mk_aries
+PRODUCT_NAME := mk_taurus
 PRODUCT_CHARACTERISTICS := nosdcard
-PRODUCT_DEVICE := aries
+PRODUCT_DEVICE := taurus
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := MI 2
+PRODUCT_MODEL := MI 2A
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Device prop
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE="aries" \
-    PRODUCT_NAME="aries" \
-    PRIVATE_BUILD_DESC="aries-userdebug 6.0.1 MMB29M 6.3.22 test-keys"
+    TARGET_DEVICE="taurus" \
+    PRODUCT_NAME="taurus" \
+    PRIVATE_BUILD_DESC="taurus-userdebug 6.0 MRA58K 5.12.7 test-keys"
 
-BUILD_FINGERPRINT := Xiaomi/aries/aries:6.0.1/MMB29M/6.3.22:userdebug/test-keys
+BUILD_FINGERPRINT := Xiaomi/taurus/taurus:6.0/MRA58K/5.12.7:userdebug/test-keys
