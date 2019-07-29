@@ -71,7 +71,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@2.0-impl \
     android.hardware.broadcastradio@1.0-impl \
     android.hardware.soundtrigger@2.0-impl \
-    audio_amplifier.msm8960 \
     audio_policy.msm8960 \
     audio.primary.msm8960 \
     audio.a2dp.default \
