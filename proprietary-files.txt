@@ -7,10 +7,6 @@ lib/libadsprpc.so:vendor/lib/libadsprpc.so
 lib/libcsd-client.so:vendor/lib/libcsd-client.so
 lib/libsurround_proc.so:vendor/lib/libsurround_proc.so
 
-# Audio Firmware
-etc/firmware/voiceproc_init.img:vendor/firmware/voiceproc_init.img
-etc/firmware/voiceproc.img:vendor/firmware/voiceproc.img
-
 # Bluetooth
 bin/hci_qcomm_init:vendor/bin/hci_qcomm_init
 vendor/lib/libaptX_encoder.so|b03772672144d4b750a5672c2922aded93bb0512
@@ -34,34 +30,27 @@ lib/liboemcamera.so:vendor/lib/liboemcamera.so
 lib/libstlport.so:vendor/lib/libstlport.so|f881a16e0dcf95c49b15368f7c7a5f8ad7ed9f81
 
 # Camera chromatix
-lib/libchromatix_imx175_zsl.so:vendor/lib/libchromatix_imx175_zsl.so
-lib/libchromatix_imx175_hfr_120fps.so:vendor/lib/libchromatix_imx175_hfr_120fps.so
-lib/libchromatix_imx175_hfr_60fps.so:vendor/lib/libchromatix_imx175_hfr_60fps.so
-lib/libchromatix_imx175_hfr_90fps.so:vendor/lib/libchromatix_imx175_hfr_90fps.so
-lib/libchromatix_imx175_default_video.so:vendor/lib/libchromatix_imx175_default_video.so
-lib/libchromatix_imx175_preview.so:vendor/lib/libchromatix_imx175_preview.so
-lib/libchromatix_s5k3h7_preview.so:vendor/lib/libchromatix_s5k3h7_preview.so
-lib/libchromatix_s5k3h7_default_video.so:vendor/lib/libchromatix_s5k3h7_default_video.so
-lib/libchromatix_s5k3h7_hfr_120fps.so:vendor/lib/libchromatix_s5k3h7_hfr_120fps.so
-lib/libchromatix_s5k3h7_hfr_60fps.so:vendor/lib/libchromatix_s5k3h7_hfr_60fps.so
-lib/libchromatix_s5k3h7_hfr_90fps.so:vendor/lib/libchromatix_s5k3h7_hfr_90fps.so
-lib/libchromatix_s5k3h7_zsl.so:vendor/lib/libchromatix_s5k3h7_zsl.so
-lib/libchromatix_imx135_default_video.so:vendor/lib/libchromatix_imx135_default_video.so
-lib/libchromatix_imx135_hfr_60fps.so:vendor/lib/libchromatix_imx135_hfr_60fps.so
-lib/libchromatix_imx135_hfr_90fps.so:vendor/lib/libchromatix_imx135_hfr_90fps.so
-lib/libchromatix_imx135_preview.so:vendor/lib/libchromatix_imx135_preview.so
-lib/libchromatix_imx135_video_hdr.so:vendor/lib/libchromatix_imx135_video_hdr.so
-lib/libchromatix_imx135_zsl.so:vendor/lib/libchromatix_imx135_zsl.so
-lib/libchromatix_ov2722_zsl.so:vendor/lib/libchromatix_ov2722_zsl.so
-lib/libchromatix_ov2722_default_video.so:vendor/lib/libchromatix_ov2722_default_video.so
-lib/libchromatix_ov2722_preview.so:vendor/lib/libchromatix_ov2722_preview.so
-lib/libchromatix_ov2720_hfr.so:vendor/lib/libchromatix_ov2720_hfr.so
-lib/libchromatix_ov2720_zsl.so:vendor/lib/libchromatix_ov2720_zsl.so
-lib/libchromatix_ov2720_preview.so:vendor/lib/libchromatix_ov2720_preview.so
-lib/libchromatix_ov2720_default_video.so:vendor/lib/libchromatix_ov2720_default_video.so
+lib/libchromatix_s5k3h7a_default_video.so:vendor/lib/libchromatix_s5k3h7a_default_video.so
+lib/libchromatix_s5k3h7a_hfr_120fps.so:vendor/lib/libchromatix_s5k3h7a_hfr_120fps.so
+lib/libchromatix_s5k3h7a_hfr_60fps.so:vendor/lib/libchromatix_s5k3h7a_hfr_60fps.so
+lib/libchromatix_s5k3h7a_hfr_90fps.so:vendor/lib/libchromatix_s5k3h7a_hfr_90fps.so
+lib/libchromatix_s5k3h7a_preview.so:vendor/lib/libchromatix_s5k3h7a_preview.so
+lib/libchromatix_s5k3h7a_zsl.so:vendor/lib/libchromatix_s5k3h7a_zsl.so
 lib/libchromatix_imx132_default_video.so:vendor/lib/libchromatix_imx132_default_video.so
 lib/libchromatix_imx132_preview.so:vendor/lib/libchromatix_imx132_preview.so
 lib/libchromatix_imx132_zsl.so:vendor/lib/libchromatix_imx132_zsl.so
+lib/libchromatix_imx175_default_video.so:vendor/lib/libchromatix_imx175_default_video.so
+lib/libchromatix_imx175_hfr_120fps.so:vendor/lib/libchromatix_imx175_hfr_120fps.so
+lib/libchromatix_imx175_hfr_60fps.so:vendor/lib/libchromatix_imx175_hfr_60fps.so
+lib/libchromatix_imx175_hfr_90fps.so:vendor/lib/libchromatix_imx175_hfr_90fps.so
+lib/libchromatix_imx175_preview.so:vendor/lib/libchromatix_imx175_preview.so
+lib/libchromatix_imx175_zsl.so:vendor/lib/libchromatix_imx175_zsl.so
+lib/libchromatix_imx175l_default_video.so:vendor/lib/libchromatix_imx175l_default_video.so
+lib/libchromatix_imx175l_hfr_120fps.so:vendor/lib/libchromatix_imx175l_hfr_120fps.so
+lib/libchromatix_imx175l_hfr_60fps.so:vendor/lib/libchromatix_imx175l_hfr_60fps.so
+lib/libchromatix_imx175l_hfr_90fps.so:vendor/lib/libchromatix_imx175l_hfr_90fps.so
+lib/libchromatix_imx175l_preview.so:vendor/lib/libchromatix_imx175l_preview.so
+lib/libchromatix_imx175l_zsl.so:vendor/lib/libchromatix_imx175l_zsl.so
 
 # DRM
 bin/qseecomd:vendor/bin/qseecomd
