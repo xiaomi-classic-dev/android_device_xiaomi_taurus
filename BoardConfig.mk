@@ -157,6 +157,9 @@ TARGET_KERNEL_CROSS_COMPILE_PREFIX   := arm-linux-androideabi-
 # Malloc
 MALLOC_SVELTE := true
 
+# NFC
+BOARD_NFC_CHIPSET := pn544
+
 # Partitions
 TARGET_USERIMAGES_USE_EXT4         := true
 TARGET_USERIMAGES_USE_F2FS         := true

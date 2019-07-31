@@ -104,6 +104,9 @@ lib/libmmjps.so:vendor/lib/libmmjps.so
 lib/libmmmpo.so:vendor/lib/libmmmpo.so
 lib/libmmmpod.so:vendor/lib/libmmmpod.so
 
+# Nfc
+vendor/firmware/libpn544_fw.so
+
 # OMX
 lib/libOmxAacDec.so:vendor/lib/libOmxAacDec.so
 lib/libOmxEvrcDec.so:vendor/lib/libOmxEvrcDec.so

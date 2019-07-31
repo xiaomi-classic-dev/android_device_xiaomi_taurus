@@ -187,6 +187,17 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal/thermal-engine-8064ab.conf:system/etc/thermal-engine-8064ab.conf \
     $(LOCAL_PATH)/configs/thermal/thermal-engine-8960.conf:system/etc/thermal-engine-8960.conf
 
+# NFC packages
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.nfc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.xml
+
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.0-impl \
+    nfc.msm8960 \
+    libnfc \
+    libnfc_jni \
+    Nfc
+
 # Omx
 PRODUCT_PACKAGES += \
     libOmxAacEnc \
