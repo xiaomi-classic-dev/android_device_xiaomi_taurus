@@ -1,0 +1,29 @@
+# Audio
+lib/libaudcal.so:vendor/lib/libaudcal.so
+lib/libcsd-client.so:vendor/lib/libcsd-client.so
+
+# Camera chromatix
+lib/libchromatix_s5k3h7a_default_video.so:vendor/lib/libchromatix_s5k3h7a_default_video.so
+lib/libchromatix_s5k3h7a_hfr_120fps.so:vendor/lib/libchromatix_s5k3h7a_hfr_120fps.so
+lib/libchromatix_s5k3h7a_hfr_60fps.so:vendor/lib/libchromatix_s5k3h7a_hfr_60fps.so
+lib/libchromatix_s5k3h7a_hfr_90fps.so:vendor/lib/libchromatix_s5k3h7a_hfr_90fps.so
+lib/libchromatix_s5k3h7a_preview.so:vendor/lib/libchromatix_s5k3h7a_preview.so
+lib/libchromatix_s5k3h7a_zsl.so:vendor/lib/libchromatix_s5k3h7a_zsl.so
+lib/libchromatix_imx132_default_video.so:vendor/lib/libchromatix_imx132_default_video.so
+lib/libchromatix_imx132_preview.so:vendor/lib/libchromatix_imx132_preview.so
+lib/libchromatix_imx132_zsl.so:vendor/lib/libchromatix_imx132_zsl.so
+lib/libchromatix_imx175_default_video.so:vendor/lib/libchromatix_imx175_default_video.so
+lib/libchromatix_imx175_hfr_120fps.so:vendor/lib/libchromatix_imx175_hfr_120fps.so
+lib/libchromatix_imx175_hfr_60fps.so:vendor/lib/libchromatix_imx175_hfr_60fps.so
+lib/libchromatix_imx175_hfr_90fps.so:vendor/lib/libchromatix_imx175_hfr_90fps.so
+lib/libchromatix_imx175_preview.so:vendor/lib/libchromatix_imx175_preview.so
+lib/libchromatix_imx175_zsl.so:vendor/lib/libchromatix_imx175_zsl.so
+lib/libchromatix_imx175l_default_video.so:vendor/lib/libchromatix_imx175l_default_video.so
+lib/libchromatix_imx175l_hfr_120fps.so:vendor/lib/libchromatix_imx175l_hfr_120fps.so
+lib/libchromatix_imx175l_hfr_60fps.so:vendor/lib/libchromatix_imx175l_hfr_60fps.so
+lib/libchromatix_imx175l_hfr_90fps.so:vendor/lib/libchromatix_imx175l_hfr_90fps.so
+lib/libchromatix_imx175l_preview.so:vendor/lib/libchromatix_imx175l_preview.so
+lib/libchromatix_imx175l_zsl.so:vendor/lib/libchromatix_imx175l_zsl.so
+
+# Nfc
+vendor/firmware/libpn544_fw.so
